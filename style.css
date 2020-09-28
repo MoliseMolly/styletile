@@ -92,6 +92,10 @@ a {
     color: #AC5353;
 }
 
+a:hover {
+    color: #8E4444;
+}
+
 img {
     width: 100%;
 }
@@ -169,7 +173,7 @@ section {
     padding: 10px;
 }
 
-.button {
+button {
     background-color: #EDB554;
     border-radius: 10px;
     width: 80px;
@@ -177,7 +181,11 @@ section {
     margin: 10px;
     padding: 10px;
     box-shadow: 1px 1px 10px #AC5353;
+}
 
+button:hover {
+    background-color: #AC5353;
+    color: white;
 
 }
 
@@ -222,6 +230,7 @@ section {
     width: 60px;
     height: 60px;
     margin: 10px;
+    overflow: hidden;
 }
 
 
