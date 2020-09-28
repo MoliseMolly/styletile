@@ -1,0 +1,274 @@
+/*Index for CSS */
+/*1. Common styling
+- fonts
+- body header and sectionwrapper
+- text and images
+- footer
+2. Individual page styling
+3. layout/grid */
+
+/*1. Common styling*/
+
+/*fonts*/
+
+@font-face {
+    font-family: arbotek, sans-serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: open-sans, sans-serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: open-sans, sans-serif;
+
+    font-weight: 300;
+
+    font-style: italic;
+}
+
+@font-face {
+    font-family: open-sans, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: open-sans-condensed, sans-serif;
+
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+
+
+/*body, header and sectionwrapper styling*/
+
+/*text and images*/
+
+p,
+ul,
+b {
+    font-family: open-sans, sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: arbotek, sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #FFD9CD, #8E4444, #FFD9CD);
+}
+
+a {
+    font-family: open-sans, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #AC5353;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #FFD9CD;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+/*2. Individual page styling*/
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+
+
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: baseline;
+    background-color: #FCF2F0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #AC5353;
+
+}
+
+.container6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_keywords {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.container_keywordsleft {
+    padding: 10px;
+}
+
+.container_keywordsright {
+    padding: 10px;
+}
+
+.button {
+    background-color: #EDB554;
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #AC5353;
+
+
+}
+
+.moderntext {
+    color: #AC5353;
+    font-family: open-sans, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.energetictext {
+    color: black;
+    font-family: open-sans, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.contentfocusedtext {
+    color: black;
+    text-decoration-line: underline;
+    font-style: italic;
+
+}
+
+.uniquetext {
+    color: #AC5353;
+    font-family: open-sans, sans-serif;
+    font-style: italic;
+
+
+}
+
+.centertext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-style: italic;
+
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+
+.color1 {
+    background-color: #C59D87;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.color2 {
+    background-color: #FFD9CD;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.color3 {
+    background-color: #F29898;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.color4 {
+    background-color: #8E4444;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.color5 {
+    background-color: #EDB554;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+.color6 {
+    background-color: #AC5353;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+
+
+
+
+/**/
