@@ -66,7 +66,7 @@ p,
 ul,
 b {
     font-family: open-sans, sans-serif;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 h1,
@@ -75,11 +75,17 @@ h3,
 h4,
 h5 {
     font-family: "arbotek", sans-serif;
+    font-weight: 100;
 }
 
 h1 {
     font-size: 100px;
 }
+
+h2 {
+    font-size: 40px;
+}
+
 
 hr {
     border: 0;
@@ -90,7 +96,7 @@ hr {
 a {
     font-family: open-sans, sans-serif;
     font-style: italic;
-    font-size: 15px;
+    font-size: 25px;
     color: #AC5353;
 }
 
@@ -147,7 +153,7 @@ section {
 .container4 {
     display: flex;
     flex-wrap: wrap;
-    align-content: baseline;
+    align-items: baseline;
     background-color: #FCF2F0;
     padding: 10px;
     border-radius: 10px;
@@ -176,11 +182,13 @@ section {
 }
 
 button {
+    font-family: open sans, sans-serif;
     background-color: #EDB554;
     border-radius: 10px;
-    width: 80px;
-    height: 60px;
-    margin: 10px;
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    font-size: 20px;
     padding: 10px;
     box-shadow: 1px 1px 10px #AC5353;
 }
@@ -201,14 +209,13 @@ button:hover {
 .energetictext {
     color: black;
     font-family: open-sans, sans-serif;
-    font-style: italic;
     font-weight: 200;
 }
 
 .contentfocusedtext {
     color: black;
     text-decoration-line: underline;
-    font-style: italic;
+
 
 }
 
@@ -216,6 +223,7 @@ button:hover {
     color: #AC5353;
     font-family: open-sans, sans-serif;
     font-style: italic;
+    font-weight: 600;
 
 
 }
@@ -225,6 +233,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     font-style: italic;
+    font-size: 30px;
 
 }
 
